@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.footer_item {
+  text-align: center;
+}
+
+.footer_icon {
+  text-align: center;
+}
+
+.icons {
+  filter: grayscale(1) !important;
+  color: forestgreen;
+  font-size: medium;
+}
