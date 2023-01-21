@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import { FaBell } from "react-icons/fa";
 import "./Card.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -43,7 +44,8 @@ const Card = (props) => {
             
           </div>
           <div>
-            <button className="fourth_section_button" onClick={props.onOpenModal}>Unmark funds</button>
+            <Link to="./Unmarked"> <button className="fourth_section_button" onClick={props.onOpenModal}>Unmark funds</button></Link>
+           
           </div>
         </div>
         <div className="main_card">

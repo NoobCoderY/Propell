@@ -4,8 +4,9 @@
 }
 
 .Container {
-  margin: 2em;
-  min-height: calc(100vh - 70px);
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
 }
 
 .header {
@@ -71,7 +72,7 @@
 .fourth_section {
   margin-top: 1em;
   display: flex;
-  padding: 2em;
+  padding: 0.3em;
   justify-content: space-between;
   align-items: center;
   border-radius: 20px;
@@ -84,8 +85,8 @@
   background: rgba(253, 233, 234, 1);
   cursor: pointer;
   color: rgba(239, 79, 83, 1);
-  width: 12em;
-  font-weight: bold;
+  width: 13em;
+  font-weight:700;
 }
 
 .main_card{
@@ -103,3 +104,5 @@
     align-items: center;
     margin-top: 15px;
 }
+
+

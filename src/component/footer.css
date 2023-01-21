@@ -11,6 +11,13 @@ html, body {
   border: 1px solid white;
   padding-left: 25px;
   padding-right: 25px;
+  box-shadow: 0px -4px 16px rgba(85, 22, 170, 0.15);
+  height: 5em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
 
 }
 

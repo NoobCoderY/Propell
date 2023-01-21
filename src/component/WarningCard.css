@@ -1,0 +1,38 @@
+.Warning_card{
+    text-align: center;
+}
+
+.Warning_card p{
+    font-weight: bold;
+}
+
+.unmarked_btn{
+    display: flex;
+    align-items: center; 
+     justify-content:center;
+     gap:20px; 
+}
+
+.unmarked_btn-2{
+    padding: 0.5em;
+    border: none;
+    border-radius: 30px;
+    background: rgba(253, 233, 234, 1);
+    cursor: pointer;
+    color: rgba(239, 79, 83, 1);
+    width: 7em;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.unmarked_btn-1{
+    padding: 0.5em;
+    border: none;
+    border-radius: 30px;
+    background: #E9DCFA;
+    font-size: medium;
+    cursor: pointer;
+    color: #5516AA;
+    width: 7em;
+    font-weight: bold;
+}
