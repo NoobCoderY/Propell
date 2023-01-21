@@ -1,15 +1,11 @@
-
-
 .modal {
   padding: 2em;
-  
 }
 
-.back_icon{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
+.back_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .unmarked {
   display: flex;
@@ -46,7 +42,6 @@
   align-items: center;
   padding-left: 2em;
   padding-right: 2em;
-  
 }
 
 .unmarked_card-2 {
