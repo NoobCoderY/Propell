@@ -3,8 +3,6 @@ import Footer from "./Footer";
 import { FaBell } from "react-icons/fa";
 import "./Card.css";
 import { Link } from "react-router-dom";
-import { PortFolio } from "./Profile";
-
 const Card = (props) => {
   return (
     <>
@@ -48,7 +46,7 @@ const Card = (props) => {
         </div>
         <div className="fourth_section">
           <div className="fourth_section-1">
-            <h1>Marked Mutual Funds</h1>
+            <p>Marked Mutual Funds-</p>
           </div>
           <div>
             <Link to="./Unmarked">
@@ -60,7 +58,7 @@ const Card = (props) => {
         {props.data.map((index) => {
           return (
             <div className="main_card">
-              <h3>{index.scheme_name}</h3>
+              <h3>{index.scheme_name.slice(0,12)}</h3>
               <div className="main_card_child">
                 <div className="main_card-child-1">
                   <div className="main_card-child-1-1">
