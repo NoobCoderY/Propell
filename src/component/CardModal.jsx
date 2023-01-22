@@ -19,8 +19,13 @@ const CardModal = (props) => {
         </h6>
         <h6>New Credit Line Value ₹ {props.newCredit}</h6>
         <div className="unmarked_btn">
-          <button className="unmarked_btn-1 " open={props.open} onClose={props.onCloseModal}>Go back</button>
-          <button className="unmarked_btn-2">Confirm</button>
+          <button className="unmarked_btn-1 " onClick={()=>{
+            props.onCloseModal();
+          }}>Go back</button>
+          <button className="unmarked_btn-2" onClick={()=>{
+            props.setPortfolio(props.sum)
+            props.onCloseModal();
+          }}>Confirm</button>
         </div>
       </div>
         </Modal>

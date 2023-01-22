@@ -23,14 +23,23 @@ html, body {
 
 .footer_item {
   text-align: center;
+  color: rgb(22, 132, 154);
+  cursor: pointer;
 }
 
 .footer_icon {
   text-align: center;
+  
 }
 
 .icons {
-  filter: grayscale(1) !important;
-  color: forestgreen;
+  /* filter: grayscale(1) !important;
+  color: forestgreen; */
   font-size: medium;
+  
+}
+
+.footer_item:hover{
+   filter: grayscale(1) !important;
+  color: forestgreen;
 }

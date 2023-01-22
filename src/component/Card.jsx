@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import { FaBell } from "react-icons/fa";
 import "./Card.css";
 import { Link } from "react-router-dom";
-import { PortFolio } from "./PortFolio";
+import { PortFolio } from "./Profile";
 
 const Card = (props) => {
   return (
@@ -39,7 +39,7 @@ const Card = (props) => {
           </div>
         </div>
         <div className="third_section">
-          <Link to="./PortFolio">
+          <Link to="./Profile">
           <button className="third_section_button">
             Increase Credit Limit
           </button>

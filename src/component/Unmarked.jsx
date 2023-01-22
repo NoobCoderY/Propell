@@ -84,15 +84,22 @@ const Unmarked = (props) => {
           <button
             className="unmarked_card_btn"
             onClick={() => {
-              props.setPortfolio(sum);
+              
               onOpenModal();
             }}
-          
           >
             Unmark funds
           </button>
         </div>
-        <CardModal open={open} onOpenModal={onOpenModal} onCloseModal={onCloseModal} newCredit={newCredit}></CardModal>
+        <CardModal
+          open={open}
+          onOpenModal={onOpenModal}
+          onCloseModal={onCloseModal}
+          newCredit={newCredit}
+          setPortfolio={props.setPortfolio}
+          sum={sum}
+          setSum={setSum}
+        ></CardModal>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import Unmarked from './component/Unmarked';
 import { BrowserRouter, Route ,Routes} from 'react-router-dom';
 import Footer from './component/Footer';
 import axios from 'axios';
-import { PortFolio } from './component/PortFolio';
+import { Profile}  from './component/Profile';
 
 function App() {
   const [portFolio,setPortfolio]=React.useState(150000)
@@ -23,8 +23,8 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route exact path='/' element={<Card  portFolio={portFolio} setPortfolio={setPortfolio} data={data}/>}></Route>
-    <Route exact path='/unmarked' element={<Unmarked  portFolio={portFolio} setPortfolio={setPortfolio} data={data}/>}></Route>
-    <Route exact path='/PortFolio' element={<PortFolio/>}></Route>
+    <Route exact path='/unmarked' element={<Unmarked  portFolio={portFolio} setPortfolio={setPortfolio}/>}></Route>
+    <Route exact path='/Profile' element={<Profile/>}></Route>
      </Routes>
      {/* <Footer></Footer> */}
      </BrowserRouter>
