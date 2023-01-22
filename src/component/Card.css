@@ -17,7 +17,6 @@
 
 .portfolio {
   height: 7em;
-  /* border: 2px solid red; */
   padding: 2em;
   border-radius: 20px;
   background: repeating-linear-gradient(45deg,
@@ -103,8 +102,6 @@ align-items: center;
 .main_card-child-1 {
   flex-basis: 50%;
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
   margin-top: 15px;
   flex-direction: column;
   gap: 1em;
@@ -113,8 +110,6 @@ align-items: center;
 .main_card-child-2{
   flex-basis: 50%;
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
   margin-top: 15px;
   flex-direction: column;
   gap: 1em;

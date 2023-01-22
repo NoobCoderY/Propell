@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaHouseUser, FaUser, FaCircleDollar } from "react-icons/fa";
+import { FaHouseUser, FaUser, FaBriefcase } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
         <div className="footer_item">
           <div className="footer_icon">
-            <FaUser className="icons" size={"2em"} />
+            <FaBriefcase className="icons" size={"2em"} />
           </div>
-          <h6 className="icons">Profile</h6>
+          <h6 className="icons">PortFolio</h6>
         </div>
         <div className="footer_item">
           <div className="footer_icon">

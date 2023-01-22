@@ -2,12 +2,11 @@ import logo from './logo.svg';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Card from './component/Card';
-import CardModal from './component/CardModal';
-import WarningCard from './component/WarningCard';
 import Unmarked from './component/Unmarked';
 import { BrowserRouter, Route ,Routes} from 'react-router-dom';
 import Footer from './component/Footer';
 import axios from 'axios';
+import { PortFolio } from './component/PortFolio';
 
 function App() {
   const [portFolio,setPortfolio]=React.useState(150000)
@@ -25,6 +24,7 @@ function App() {
     <Routes>
     <Route exact path='/' element={<Card  portFolio={portFolio} setPortfolio={setPortfolio} data={data}/>}></Route>
     <Route exact path='/unmarked' element={<Unmarked  portFolio={portFolio} setPortfolio={setPortfolio} data={data}/>}></Route>
+    <Route exact path='/PortFolio' element={<PortFolio/>}></Route>
      </Routes>
      {/* <Footer></Footer> */}
      </BrowserRouter>
