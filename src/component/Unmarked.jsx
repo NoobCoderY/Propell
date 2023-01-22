@@ -84,7 +84,6 @@ const Unmarked = (props) => {
           <button
             className="unmarked_card_btn"
             onClick={() => {
-              
               onOpenModal();
             }}
           >

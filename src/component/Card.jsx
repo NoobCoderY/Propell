@@ -42,7 +42,6 @@ const Card = (props) => {
             Increase Credit Limit
           </button>
           </Link>
-
         </div>
         <div className="fourth_section">
           <div className="fourth_section-1">
@@ -58,7 +57,8 @@ const Card = (props) => {
         {props.data.map((index) => {
           return (
             <div className="main_card">
-              <h3>{index.scheme_name.slice(0,12)}</h3>
+              <h3>{index.scheme_name.slice(0,21)}<span style={{cursor:"pointer"}} onClick={()=>{     
+              }}>...</span></h3>
               <div className="main_card_child">
                 <div className="main_card-child-1">
                   <div className="main_card-child-1-1">

@@ -40,17 +40,42 @@
   color: #898989;
 }
 
-@media screen and(min-width:300px) and (max-width: 700px) {
-  .PortFolio_card h1 {
-    font-size: 23px;
-  }
 
-  .PortFolio_card h3 {
-    font-size: 14px;
+
+@media screen and (min-width: 360px) and (max-width: 550px){
+.profile_bottom {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 90%;
+    margin-top: 1em;
+    text-align: center;
+}
+.profile_name h3 {
+    font-size: medium;
+  }
+  
+  .profile_bottom {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      width: 90%;
+      margin-top: 1em;
+      text-align: center;
   }
 
   .profile-1 {
-    padding: 13px;
-    font-size: 14px;
-  }
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 10px;
+    background: #f6f0fe;
+    border-radius: 150px;
+    padding: 12px;
+    color: #5516aa;
+}
+  
 }

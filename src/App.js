@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './App.css';
 import Card from './component/Card';
 import Unmarked from './component/Unmarked';
@@ -18,6 +18,7 @@ function App() {
              
 
   },[])
+  // i did state manage via props but i am also do same things via useContext 
   return (
     <div style={{position:"relative"}}>
     <BrowserRouter>
@@ -26,7 +27,6 @@ function App() {
     <Route exact path='/unmarked' element={<Unmarked  portFolio={portFolio} setPortfolio={setPortfolio}/>}></Route>
     <Route exact path='/Profile' element={<Profile/>}></Route>
      </Routes>
-     {/* <Footer></Footer> */}
      </BrowserRouter>
      </div>
     
